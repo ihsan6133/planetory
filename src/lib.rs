@@ -8,6 +8,8 @@ use winit::{
 
 
 mod state;
+mod vertex;
+
 
 pub async fn run() {
     env_logger::init();
